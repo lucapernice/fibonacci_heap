@@ -108,7 +108,7 @@ You can use this C++ code to work with Fibonacci heaps for various priority queu
 
 int main() {
     // Create a Fibonacci heap
-    fibonacci_heap<int, std::less<int>> fibHeap;
+    fibonacci_heap<int, NodeComparator<int>> fibHeap;
 
     // Perform operations on the heap
     fibHeap.insert(42);
